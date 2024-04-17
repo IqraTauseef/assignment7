@@ -1,0 +1,208 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.nav-top
+{
+    color: aliceblue;
+    justify-items: center;
+   
+    display: flex;
+    background-color: rgb(234, 167, 68);
+}
+.bx{
+    color: rgb(150, 81, 32);
+}
+.nav-link
+{
+    color: white;
+}
+.socialicon
+{
+    margin-left:10%;
+    padding:10px 20px;
+}
+.navbar-collapse{
+    justify-content: space-between; 
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+}
+
+#navbar{
+   padding-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.navbar-brand img {
+    width: 290px; /* Adjust as needed */
+}
+
+
+.navbar-nav .btn {
+    margin-left: 90px;
+    font-size: large;
+    font-weight: 500;
+}
+.navbar-nav{
+    font-size: 100%;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 50px 0;
+    border-bottom: 1px  solid red;
+}
+
+
+.payment {
+    display: inline-block;
+    margin-left: 80%;
+}
+.footer{
+    display: flex;
+    background-color: #333537;
+    color: #fff;
+    padding: 30px;
+   
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 {
+    margin: 0 10px; /* Add margin for spacing */
+}
+.social-icons {
+
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 5px; /* Add margin for spacing */
+}
+div.newsletter-form{
+    margin-left: 70%;
+}
+.newsletter-form input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter-form button {
+    background-color: #ffc107;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #212529;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #ffcd39;
+}
+
+/* ---------------------------------main start--------------------------------------------------------------------------------------- */
+
+.about-heading>h1{
+    font-weight: bold;
+    justify-content: center;
+
+}
+.Review
+
+{
+    position: relative;
+}
+.comment
+{
+    position: absolute;
+    top: 15%;
+    justify-content: center;
+    margin-left: 15%;
+}
+section {
+    text-align: center;
+}
+
+.centered {
+    display: inline-block;
+    margin-bottom: 20px; }
+
+    /*----------------------appoinment--------------------------------  */
+.timing
+{
+    position: relative;
+}
+
+    
+    
+    h2, p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Include padding and border in the width */
+    }
+    
+    button[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        background-color: #f19b12;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #e0992f;
+    }
+    
+    @media (max-width: 768px) {
+        #book-appointment {
+            padding: 30px;
+        }
+    }
+    
